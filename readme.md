@@ -32,7 +32,7 @@ The terraform code in this folder deploys Oracle Access Governance.  It is accom
 
 ## How to execute
 ### Via Resource Manager
-[![Deploy_To_OCI](images/DeployToOCI.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/oracle-quickstart/oci-cis-landingzone-quickstart/archive/refs/heads/main.zip) <br>
+[![Deploy_To_OCI](images/DeployToOCI.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/oracle-quickstart/access-governance-tf-template/archive/refs/heads/main.zip) <br>
 *If you are logged into your OCI tenancy, the button will take you directly to OCI Resource Manager where you can proceed to deploy. If you are not logged, the button takes you to Oracle Cloud initial page where you must enter your tenancy name and login to OCI.*
 1. Click Next.
 2. Enter the values for required variables.
@@ -43,6 +43,7 @@ The terraform code in this folder deploys Oracle Access Governance.  It is accom
 7. Click Apply.
 
 ### Via Terraform CLI
+1. Change working directory to access-governance-tf-template/access-governance-module.
 1. Enter required variables in terraform.tfvars, for examples, refer examples/tfvars.
 2. terraform init.
 3. terraform plan.
@@ -53,7 +54,7 @@ Copyright (c) 2023, Oracle and/or its affiliates.
 
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 
-See [LICENSE](../../LICENSE) for more details.
+See [LICENSE](LICENSE) for more details.
 
 ## Known Issues
 None.
