@@ -36,12 +36,11 @@ The terraform code in this folder deploys Oracle Access Governance.  It is accom
 *If you are logged into your OCI tenancy, the button will take you directly to OCI Resource Manager where you can proceed to deploy. If you are not logged, the button takes you to Oracle Cloud initial page where you must enter your tenancy name and login to OCI.*
 1. Accept the terms, click on checkbox <blockquote> <checkbox> I have reviewed and accept the Oracle Terms of Use </blockquote>
 2. Click Next.
-3. Enter the values for required variables.
-
-![Variables](images/variables.png) 
+3. Enter the values for required variables. <br> 
+![](images/variables.png)
+4. Click Next.
 5. Click Next.
-6. Click Next.
-7. Click Apply.
+6. Click Apply.
 
 ### Via Terraform CLI
 1. Change working directory to access-governance-tf-template.
