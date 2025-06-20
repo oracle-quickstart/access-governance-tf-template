@@ -49,6 +49,14 @@ The terraform code in this folder deploys Oracle Access Governance.  It is accom
 4. terraform plan.
 5. terraform apply.
 
+## Contributing
+
+This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md)
+
+## Security
+
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
+
 ## License
 Copyright (c) 2023, Oracle and/or its affiliates.
 
